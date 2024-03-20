@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ant-tabs-nav-list {
+    width: 100% !important;
+    padding: 0 20px;
+    display: flex !important;
+    justify-content: space-between !important;
+    transform: none !important
+    ;
+}
+
+.ant-tabs-tab {
+    width: 100% !important;
+    background-color: #cbc9cc !important;
+}
+
+.ant-tabs-tab-active {
+    background-color: #fff !important;
+}
+
+.ant-tabs-content-holder{
+    background-color: #cbc9cc !important;
+    margin: -15px 20px 0 !important;
+    overflow-x: auto;
+}
+.ant-table-thead{
+    overflow-wrap: unset !important;
+    width: 500px !important;
+}
+
+/* .ant-picker, .ant-picker-range {
+    width: 100% !important;
+} */
