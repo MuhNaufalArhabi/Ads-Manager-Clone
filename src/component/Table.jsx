@@ -43,6 +43,6 @@ const CustomTable = ({dataTable, columnTable}) => {
       },
     ],
   };
-  return <Table rowSelection={rowSelection} columns={columnTable} dataSource={dataTable} pagination={{position: ['bottomLeft']}} scroll={{x: 3500}} />;
+  return <Table rowSelection={rowSelection} columns={columnTable} dataSource={dataTable} pagination={{position: ['bottomLeft']}} scroll={{x: 5000}} />;
 };
 export default CustomTable;
